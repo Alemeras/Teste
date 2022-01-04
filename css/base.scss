@@ -1,0 +1,172 @@
+body {
+  background-color: $cor-fundo-full;
+  position:relative;
+}
+
+
+
+.base-nav {
+  background-color: #0c262a;
+  padding: 12px;
+
+  .navbar-light {
+    .navbar-toggler {
+      color: #fff;
+      border-color: #fff;
+      background-color: #fff;
+    }
+
+    a {
+      color: #fff !important;
+    }
+  }
+}
+
+
+.accordion {
+  .card {
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 1px solid #6c6c6c;
+
+    .card-body {
+      padding: 10px 0px;
+
+      label {
+        font-weight: bold;
+      }
+
+      input,
+      select {
+        border-radius: 50px;
+        border: 1px solid #767676;
+      }
+    }
+  }
+
+  .title {
+    h2 {
+      font-size: 33px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #6c6c6c;
+      padding-top: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+.base-box {
+  padding: 10px 40px 30px;
+  border-radius: 30px;
+  border: 1px solid #6c6c6c;
+  background-color: #fff;
+
+  label {
+    font-weight: bold;
+  }
+
+  input,
+  select {
+    border-radius: 50px;
+    border: 1px solid #767676;
+  }
+
+  .form-check-inline {
+    margin-right: 4.75rem;
+
+    .form-check-input {
+      position: static;
+      margin-top: 150px;
+      margin-right: 0.3125rem;
+      margin-left: -72px;
+    }
+  }
+
+  .title {
+    h2 {
+      font-size: 33px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #6c6c6c;
+      padding-top: 20px;
+      cursor: pointer;
+    }
+  }
+
+  table {
+    tr {
+      .nomeLoja {
+        color: #ff7a00;
+      }
+
+      th {
+        color: #fff;
+        background-color: #ff7a00;
+        border-top: 0;
+      }
+
+      th:first-child {
+        border-radius: 20px 0 0;
+      }
+
+      th:last-child {
+        border-radius: 0px 20px 0px 0px;
+      }
+    }
+  }
+
+  .file {
+    input {
+      border: 0;
+      font-size: 13px;
+      color: #767676;
+      border-radius: 0;
+    }
+  }
+
+  .box-preview {
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid #767676;
+    width: 205px;
+    height: 205px;
+    margin-left: 15px;
+  }
+
+}
+
+.btn-add {
+  width:150px;
+  height:35px;
+  color:#fff;
+  background: linear-gradient(90deg, rgba(254,131,3,1) 0%, rgba(255,161,0,1) 100%);
+  border-radius:50px;
+  border:0;
+  margin: 40px 0;
+  display: inline-block;
+}
+
+.mensagem {
+  position: fixed;
+  bottom: 30px;
+  right: 1%;
+}
+
+
+
+@media (max-width:767.98px) {
+  .base-box {
+
+    .form-check-inline {
+      margin-right: 14%;
+    }
+
+    .box-preview {
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+
+    .file {
+      text-align:center;
+    }
+  }
+}
